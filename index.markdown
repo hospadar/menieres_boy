@@ -5,6 +5,9 @@
 title: Menières Boy
 ---
 
+# Menière's Boy
+### user's manual
+
 {% for thing in site.static_files %}
 {% if thing.frame %}
 <p class="frame">

@@ -4,16 +4,26 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <style type="text/css">
+      :root {
+        --body-width: 30;
+      }
+      h1 {text-align: center;}
+      h2 {text-align: center;}
+      h3 {text-align: center;}
       body {
-        max-width: 30em;
+        
+        max-width: calc(1em * var(--body-width));
         margin-left: auto;
         margin-right: auto;
       }
-      p.frame {
-        text-align: center;
-      }
-      img {
-        width: 30em;
+      p.frame {text-align: center;}
+      p.frame img {
+        --scaling-factor: calc(var(--body-width)/3.5);
+        width: calc(3.15em * var(--scaling-factor));
+        height:calc(2em * var(--scaling-factor));
+        object-position: calc(-.36em * var(--scaling-factor));
+        object-fit: cover;
+        
       }
     </style>
   </head>
