@@ -12,18 +12,34 @@
       h3 {text-align: center;}
       body {
         
-        max-width: calc(1em * var(--body-width));
         margin-left: auto;
         margin-right: auto;
+        text-align: center;
       }
-      p.frame {text-align: center;}
-      p.frame img {
+      @media screen and (min-width: 40em) {
+        .body {
+          width: calc(1em * var(--body-width));
+        }
+        p.frame img {
         --scaling-factor: calc(var(--body-width)/3.5);
         width: calc(3.12em * var(--scaling-factor));
         height:calc(2em * var(--scaling-factor));
         object-position: calc(-.36em * var(--scaling-factor));
         object-fit: cover;
         
+      }
+      }
+      @media only screen and (max-width: 40em) {
+        .body {
+          width: 100vw
+        }
+        p.frame img {
+        width: calc(3.12vw / 3.5 * 100);
+        height:calc(2vw / 3.5 * 100);
+        object-position: calc(-.36vw / 3.5 * 100);
+        object-fit: cover;
+        
+      }
       }
     </style>
   </head>
