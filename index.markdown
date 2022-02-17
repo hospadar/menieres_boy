@@ -13,7 +13,9 @@ _*this is not medical advice_
 {% for thing in site.static_files %}
 {% if thing.frame %}
 <p class="frame">
+<a href="#{{thing.basename}}" id="{{thing.basename}}">
 <img src="{{thing.path}}" alt="{{thing.name}}"/>
+</a>
 </p>
 {% endif %}
 {% endfor %}
