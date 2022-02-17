@@ -6,7 +6,9 @@ title: Menières Boy
 ---
 
 # Menière's Boy
-### user's manual
+### user's manual*
+_or: how to hang with and love on a menieres boy_
+_*this is not medical advice_
 
 {% for thing in site.static_files %}
 {% if thing.frame %}
