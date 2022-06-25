@@ -17,6 +17,10 @@
         margin-right: auto;
         text-align: center;
       }
+      .license {
+          margin-right:auto;
+          margin-left:auto;
+      }
       @media screen and (min-width: 40em) {
         .body {
           width: calc(1em * var(--body-width));
@@ -28,23 +32,36 @@
         object-position: calc(-.36em * var(--scaling-factor));
         object-fit: cover;
         
-      }
+       }
+       .license {
+        --scaling-factor: calc(var(--body-width)/3.5);
+        width: calc(3.12em * var(--scaling-factor));
+        object-position: calc(-.36em * var(--scaling-factor));
+        object-fit: cover;
+       }
       }
       @media only screen and (max-width: 40em) {
         .body {
           width: 100vw
         }
         p.frame img {
-        width: calc(3.12vw / 3.5 * 100);
-        height:calc(2vw / 3.5 * 100);
-        object-position: calc(-.36vw / 3.5 * 100);
+         width: calc(3.12vw / 3.5 * 100);
+         height:calc(2vw / 3.5 * 100);
+         object-position: calc(-.36vw / 3.5 * 100);
+         object-fit: cover;
+       }
+       .license { 
+        --scaling-factor: calc(var(--body-width)/3.5);
+        width: calc(3.12em * var(--scaling-factor));
+        object-position: calc(-.36em * var(--scaling-factor));
         object-fit: cover;
-        
-      }
+       }
       }
     </style>
   </head>
   <body>
     {{ content }}
+
+    <p class="license" style="font-style:italic;font-size:80%"><img src="/assets/images/by-nc-sa.svg" style="height:3em;"/><br/>This page is drawn by <a href="https://hospadaruk.org">Luke Hospadaruk</a> and all images licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License</a></p>
   </body>
 </html>
