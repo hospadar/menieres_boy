@@ -10,6 +10,14 @@ title: Menières Boy
 _or: how to hang with and love on a menieres boy_  
 _*this is not medical advice_
 
+
+<a href="assets/images/timeline.svg">
+<img style="height:4em" src="assets/images/timeline.svg" alt="timeline of meniere's boy's journey">
+<br/>
+meniere's boy timeline
+</a>
+<div>~~~~~~~~~~</div>
+
 {% for thing in site.static_files %}
 {% if thing.frame %}
 <p class="frame">
