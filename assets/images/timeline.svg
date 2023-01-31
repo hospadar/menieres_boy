@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="1.28"
-     inkscape:cx="1948.0469"
-     inkscape:cy="141.40625"
+     inkscape:zoom="1"
+     inkscape:cx="1670.5"
+     inkscape:cy="143"
      inkscape:window-width="1870"
      inkscape:window-height="1015"
      inkscape:window-x="690"
@@ -5254,5 +5254,11 @@
          d="m 291.25487,139.88972 c 1.02339,-0.46319 2.07865,-1.10435 3.23745,-1.10435"
          id="path9331" />
     </g>
+    <circle
+       id="path10817"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="308.4733"
+       cy="68.432968"
+       r="0.22860026" />
   </g>
 </svg>
