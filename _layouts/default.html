@@ -24,9 +24,15 @@
           margin-right:auto;
           margin-left:auto;
       }
+      .timeline{
+        overflow-x: hidden;
+      }
       @media screen and (min-width: 40em) {
         .body {
           width: calc(1em * var(--body-width));
+        }
+        .timeline {
+          max-width: calc(.95em * var(--body-width));
         }
         p.frame img {
         --scaling-factor: calc(var(--body-width)/3.5);
@@ -46,6 +52,9 @@
       @media only screen and (max-width: 40em) {
         .body {
           width: 100vw
+        }
+        .timeline {
+          max-width: 95vw;
         }
         p.frame img {
          width: calc(3.12vw / 3.5 * 100);
