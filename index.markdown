@@ -12,7 +12,7 @@ _*this is not medical advice_
 
 
 <a href="assets/images/timeline.svg">
-<img style="height:4em" src="assets/images/timeline.svg" alt="timeline of meniere's boy's journey">
+<img class="timeline" style="height:4em;" src="assets/images/timeline.svg" alt="timeline of meniere's boy's journey">
 <br/>
 meniere's boy timeline
 </a>
