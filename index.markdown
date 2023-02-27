@@ -12,9 +12,8 @@ _*this is not medical advice_
 
 
 <a href="assets/images/timeline.svg">
-<img class="timeline" style="height:4em;" src="assets/images/timeline.svg" alt="timeline of meniere's boy's journey">
-<br/>
-meniere's boy timeline
+<img class="timeline"  src="assets/images/timeline.svg" alt="timeline of meniere's boy's journey">
+<br/>meniere's boy timeline
 </a>
 <div>~~~~~~~~~~</div>
 
@@ -22,7 +21,7 @@ meniere's boy timeline
 {% if thing.frame %}
 <p class="frame">
 <a href="#{{thing.basename}}" id="{{thing.basename}}">
-<img src="{{thing.path}}" alt="{{thing.name}}"/>
+<img src="{{thing.path}}" alt="{{site.data.alt[thing.basename]}}"/>
 </a>
 </p>
 {% endif %}

@@ -23,6 +23,7 @@ email:
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+host: 0.0.0.0
 
 defaults:
   - scope: 
@@ -34,6 +35,7 @@ defaults:
     values:
       frame: true
     
+  
 # Build settings
 #theme: minima
 #plugins:
