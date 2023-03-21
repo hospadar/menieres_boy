@@ -27,31 +27,37 @@
       .timeline{
         overflow-x: hidden;
       }
-      @media screen and (min-width: 40em) {
+      @media screen and (min-width: 40rem) {
         .body {
-          width: calc(1em * var(--body-width));
+          width: calc(1rem * var(--body-width));
+        }
+        .header {
+          width: calc(.95rem * var(--body-width));
         }
         .timeline {
-          width: calc(.95em * var(--body-width));
+          width: calc(.95rem * var(--body-width));
         }
         p.frame img {
         --scaling-factor: calc(var(--body-width)/3.5);
-        width: calc(3.12em * var(--scaling-factor));
-        height:calc(2em * var(--scaling-factor));
-        object-position: calc(-.36em * var(--scaling-factor));
+        width: calc(3.12rem * var(--scaling-factor));
+        height:calc(2rem * var(--scaling-factor));
+        object-position: calc(-.36rem * var(--scaling-factor));
         object-fit: cover;
         
        }
        .license {
         --scaling-factor: calc(var(--body-width)/3.5);
-        width: calc(3.12em * var(--scaling-factor));
-        object-position: calc(-.36em * var(--scaling-factor));
+        width: calc(3.12rem * var(--scaling-factor));
+        object-position: calc(-.36rem * var(--scaling-factor));
         object-fit: cover;
        }
       }
-      @media only screen and (max-width: 40em) {
+      @media only screen and (max-width: 40rem) {
         .body {
           width: 100vw
+        }
+        .header {
+          width: 95vw;
         }
         .timeline {
           width: 95vw;
@@ -64,8 +70,8 @@
        }
        .license { 
         --scaling-factor: calc(var(--body-width)/3.5);
-        width: calc(3.12em * var(--scaling-factor) * .75);
-        object-position: calc(-.36em * var(--scaling-factor));
+        width: calc(3.12rem * var(--scaling-factor) * .75);
+        object-position: calc(-.36rem * var(--scaling-factor));
         object-fit: cover;
        }
       }
@@ -76,7 +82,7 @@
 
     
     <p class="license" style="font-style:italic;font-size:80%">
-      <img src="/assets/images/by-nc-sa.svg" style="height:3em;"/><br/>
+      <img src="/assets/images/by-nc-sa.svg" style="height:3rem;" alt="Logo for Creative Commons CC BY-NC-SA 4.0 license"/><br/>
       This page is drawn by <a href="https://hospadaruk.org">Luke Hospadaruk</a>. 
       The page and all images are licensed under the 
       <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License</a>

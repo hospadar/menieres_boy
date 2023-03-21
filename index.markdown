@@ -5,17 +5,16 @@
 title: Menières Boy
 ---
 
-# Menière's Boy
-### user's manual*
-_or: how to hang with and love on a menieres boy_  
-_*this is not medical advice_
-
+<h1>
+<img class="header" src="assets/images/title.svg" alt="meniere's boy"/>
+</h1>
+<h3>
+<img class="header" src="assets/images/header.svg" alt="A Friend's Guide To Meniere's Boy* - how to hang with and love on a meniere's boy - *this is not medical advice"/>
+</h3>
 
 <a href="assets/images/timeline.svg">
-<img class="timeline"  src="assets/images/timeline.svg" alt="timeline of meniere's boy's journey">
-<br/>meniere's boy timeline
+<img class="timeline"  src="assets/images/timeline.svg" alt="Meniere's Boy Timeline">
 </a>
-<div>~~~~~~~~~~</div>
 
 {% for thing in site.static_files %}
 {% if thing.frame %}
